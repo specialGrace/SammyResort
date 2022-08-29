@@ -62,3 +62,7 @@ display:inline-block;
     font-weight:400;
     cursor: pointer;
 }
+
+.mediaLink{
+    text-decoration: none;
+}

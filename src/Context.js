@@ -50,7 +50,7 @@ const Provider = ({ children }) => {
       const sizes=rooms.map((room)=> room.size)
       const maxSize = Math.max(...sizes)
        const minSize = Math.min(...sizes);
-      console.log(maxPrice, maxSize)
+      // console.log(maxPrice, maxSize)
 
         setState({
           ...state,
@@ -73,7 +73,7 @@ const Provider = ({ children }) => {
     const type =e.target.type
     const name = e.target.name;
     const value = type === 'checkbox' ? e.target.checked : e.target.value;
-    console.log(name, value)
+    // console.log(name, value)
 
     setState({
       ...state,
@@ -81,7 +81,7 @@ const Provider = ({ children }) => {
     })
 
     let filteredRm = [...state.rooms]
-    console.log(filteredRm)
+    // console.log(filteredRm)
 
     // condition for room type selector
     if (name === 'type' && value !== 'all') {
@@ -119,14 +119,14 @@ const Provider = ({ children }) => {
   // console.log(state.capacity)
   
   const getSingleRoom = (slug) => {
-      console.log('called')
+      // console.log('called')
         const tempRooms= state.rooms
         const foundRoom = tempRooms.find((room) => room.slug === slug)
         return foundRoom
     }
-  //     useEffect(() => {
-  //         newData()
-  //     }, [])
+      useEffect(() => {
+          getSingleRoom()
+      }, [])
 
   //     const newData = () => {
   //         let Rooms = Data.map((room) => ({

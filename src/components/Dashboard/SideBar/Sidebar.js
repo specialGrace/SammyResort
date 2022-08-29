@@ -3,36 +3,27 @@ import finee from "../image/finee.jpg"
 import { Link } from "react-router-dom";
 import {
   FaCreativeCommonsSamplingPlus,
-  FaFonticons,
   FaWpforms,
-  FaBlog,
 } from "react-icons/fa";
 
 import {
-  AiOutlineTable,
-  AiOutlineCreditCard,
   AiOutlineCalendar,
-  AiOutlineEdit,
   AiOutlineContacts,
   AiOutlineRight
 } from "react-icons/ai";
 import {
-  MdOutlineWidgets,
   MdOutlineDashboardCustomize,
-  MdTimeline,
-  MdOutlineEmail,
   MdApps
 } from "react-icons/md";
 import { SiElement } from "react-icons/si";
-import { GiLevelFourAdvanced, GiPowerButton } from "react-icons/gi";
+import { GiLevelFourAdvanced } from "react-icons/gi";
 import {
   HiOutlineDatabase,
   HiOutlineChat,
-  HiOutlineDocumentSearch
 } from "react-icons/hi";
 import { RiGalleryLine } from "react-icons/ri";
 import { BiBarChart } from "react-icons/bi";
-import { FiMapPin, FiUsers } from "react-icons/fi";
+import { FiMapPin } from "react-icons/fi";
 import styles from "./Sidebar.module.css";
 
 const Sidebar = () => {

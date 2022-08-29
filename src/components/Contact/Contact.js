@@ -40,26 +40,44 @@ const Contact = () => {
         </div>
 
         <div className={styles.contactInfo}>
-          <div className={styles.iconContainer}>
-            <FaTwitter className={styles.icon} />
-          </div>
-          <h4>Twitter</h4>
-          <a href=""></a>
+          <a
+            className={styles.mediaLink}
+            href="https://www.twitter.com/gracias_tech/"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <div className={styles.iconContainer}>
+              <FaTwitter className={styles.icon} />
+            </div>
+            <h4>Twitter</h4>
+          </a>
         </div>
 
         <div className={styles.contactInfo}>
-          <div className={styles.iconContainer}>
-            <FaFacebook className={styles.icon} />
-          </div>
-          <h4>Facebook</h4>
-          <a href=""></a>
+          <a
+            className={styles.mediaLink}
+            href="https://www.facebook.com/profile.php?id=100082500675336"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <div className={styles.iconContainer}>
+              <FaFacebook className={styles.icon} />
+            </div>
+            <h4>Facebook</h4>
+          </a>
         </div>
         <div className={styles.contactInfo}>
-          <div className={styles.iconContainer}>
-            <FaInstagram className={styles.icon} />
-          </div>
-          <h4>Instagram</h4>
-          <a href=""></a>
+          <a
+            className={styles.mediaLink}
+            href="https://www.instagram.com/gracias_tech/"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <div className={styles.iconContainer}>
+              <FaInstagram className={styles.icon} />
+            </div>
+            <h4>Instagram</h4>
+          </a>
         </div>
       </div>
     </div>

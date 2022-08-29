@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
  import { GlobalContext} from '../../Context'
- import { Link } from "react-router-dom";
 import styles from "./SingleRoomImages.module.css";
 
  const SingleRoomImages = () => {

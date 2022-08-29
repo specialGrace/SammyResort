@@ -1,9 +1,9 @@
- import React, { useContext, useEffect } from "react";
+ import React, { useContext} from "react";
 import { GlobalContext } from "../../Context";
  import styles from './SortRoomForm.module.css'
 
  const SortRoomForm = () => {
-  const { rooms, maxPrice, maxSize, minSize, price, capacity, changeHandler, type, pets, breakfast } =
+  const { rooms, maxPrice, maxSize, minSize, price, changeHandler, pets, breakfast } =
     useContext(GlobalContext);
 
     // I did Data manipulation here for types

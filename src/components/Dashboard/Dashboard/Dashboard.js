@@ -12,27 +12,7 @@ import {MdOutlineDashboardCustomize, MdStarBorder, MdOutlineEmail} from "react-i
  ChartJS.register( Title, Tooltip, LineElement, Legend, CategoryScale, LinearScale, PointElement, Filler);
  
 const Dashboard = () => {
-  const [total, setTotal] = useState({
-    labels: ["2019", "2020", "2021", "2022"],
-    // display:'none',
-    datasets: [
-      {
-        label: "fist DataSet",
-        data: [
-          0, 7,2,8
-        ],
-        backgroundColor: "blue",
-        borderColor: "darkGrey",
-        tension: 0.4,
-        fill: true,
-        pointStyle: "rect",
-        pointBorderColor: "blue",
-        pointBackgroundColor: "#fff",
-        showLine: true,
-      },
-    ],
-  });
-    
+  
   
   const [data, setData] = useState({
     labels: ["2019", "2020", "2021", "2022"],

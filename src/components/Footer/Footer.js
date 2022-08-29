@@ -37,13 +37,25 @@ const Footer = () => {
             </li>
           </ul>
           <div className={styles.footerMedia}>
-            <a href="">
+            <a
+              href="https://www.twitter.com/gracias_tech/"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+            >
               <FaTwitter />
             </a>
-            <a href="">
+            <a
+              href="https://www.facebook.com/profile.php?id=100082500675336"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+            >
               <FaFacebook />
             </a>
-            <a href="">
+            <a
+              href="https://www.instagram.com/gracias_tech/"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+            >
               <FaInstagram />
             </a>
           </div>
