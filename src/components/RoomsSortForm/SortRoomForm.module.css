@@ -1,0 +1,82 @@
+.filterContainer {
+    padding: 5rem 0;
+}
+
+.sectionTitle {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.sectionTitle h4 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    line-height: 1.25;
+    
+}
+
+.filterForm {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(202px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 40px;
+}
+
+.formGroup {
+    text-transform: capitalize;
+}
+
+.formGroup label {
+    display: block;
+    letter-spacing: 3px;
+    margin-bottom: 0.5rem;
+}
+
+.formControl {
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+}
+
+
+/* room type select option */
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+}
+
+.sizeInputs {
+    display: flex;
+}
+
+.sizeInput {
+    width: 40%;
+    padding: 0.2rem;
+    border: 1px solid #222;
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.singleExtra label {
+    display: inline-block;
+    font-size: .8rem;
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+@media screen and (min-width: 776px){
+
+.filterForm {
+    width: 70vw;
+}
+}

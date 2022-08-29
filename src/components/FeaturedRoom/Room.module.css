@@ -1,0 +1,119 @@
+
+.room{
+    margin:40px;
+}
+.room img{
+    width:200px;
+    height:200px;
+}
+
+ .room {
+    box-shadow: 2px 5px 3px 0 rgb(0 0 0 / 50%);
+    transition: all .3s linear;
+
+}
+
+.room:hover {
+    box-shadow: 4px 10px 5px 0 rgb(0 0 0 / 50%);
+}
+
+.imgContainer {
+    position: relative;
+}
+
+.imgContainer:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+.imgContainer:hover img {
+    opacity: .3;
+}
+
+.imgContainer img {
+    width: 100%;
+    display: block;
+}
+
+.priceTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    padding: 0.3rem 0.6rem 0.5rem;
+    border-bottom-right-radius: 1rem;
+    font-size: .5rem;
+    text-align: center;
+}
+
+.imgContainer img,
+.priceTop {
+    transition: all .3s linear;
+}
+
+.priceTop h6 {
+    margin-bottom: 0;
+    font-size: .9rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    display: block;
+}
+
+.featurepara {
+    display: block;
+
+}
+
+.roomInfo {
+    background: #cfcfcf;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.roomLink {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0);
+    transition: all .3s linear;
+}
+
+.imgContainer:hover .roomLink {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.btnPrimary {
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #222222;
+    background: #af9a7d;
+    padding: 0.4rem 0.9rem;
+    border: 3px solid #af9a7d;
+    transition: all .3s linear;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btnPrimary:hover {
+    background-color: transparent;
+    color: #af9a7d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

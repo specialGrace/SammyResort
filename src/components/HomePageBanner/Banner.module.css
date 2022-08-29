@@ -1,0 +1,70 @@
+.banner{
+     min-height: calc(100vh - 66px); 
+    background: url(../img/resortbg.jpg); 
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position-x: 50%;
+    background-position-y: center;
+    background-color: initial;
+    background-clip: initial;
+    background-attachment: initial;
+    background-origin: initial; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bannerInfo{
+    
+     width: 800px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.bannerHeader{
+    margin: 0px 0px 24px;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bannarpara{
+    font-size: 19.2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 0px 32px;
+}
+
+.bannerBtn{
+    color: #222222;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #AF9A7D;
+    padding: 0.4rem 0.9rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid #AF9A7D;
+
+}
+
+.bannerBtn:hover{
+    background-color: transparent;
+    color: #af9a7d;
+    
+}
+
+.bannerline{
+    width: 10rem;
+    height: 5px;
+    background-color: #AF9A7D;
+    margin: 1.7rem auto;
+}
+@media screen and (min-width: 576px) {
+    .bannerInfo{
+        padding: 2rem 3rem;
+    }
+}

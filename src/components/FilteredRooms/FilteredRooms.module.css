@@ -1,0 +1,21 @@
+ .filteredRooms {
+    padding: 5rem 0;
+} 
+
+.filteredRoomsCenter{
+    /* width: 100vw; */
+     /* margin: 0 auto; */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 40px;  */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.NoRoom{
+    text-align: center;
+}

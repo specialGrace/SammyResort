@@ -1,0 +1,85 @@
+ .sidenavContainer{
+    width: 15%;
+} 
+
+.sidenav{
+    border-top: 3px solid grey;
+    background: #e1b12c;
+    padding: 0.75rem 1rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 20%)
+}
+
+.navlist{
+    list-style-type:none;
+    position: relative;
+}
+
+.navlist li{
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist li a{
+    color: #f7f7f7;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.navlist li .icon{
+    font-size: 13px;
+    margin-right: 10px;
+}
+.navlist li p{
+    font-size: 13px;
+}
+
+.logolink{
+            text-decoration: none;
+            color: rgb(5, 5, 102);
+}
+.logoname {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+        margin-right: 60px;
+}
+
+.sammy {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    font-size: large;
+    text-indent: 5px;
+}
+
+.ownerInfo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: .8rem;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.sidebarimg{
+    width: 40%;
+    height:40%;
+    border-radius: 50%;
+}
+
+.navlist li .right {
+    font-size: 13px;
+    margin-right: 10px;
+            color: #f7f7f7;
+}
+

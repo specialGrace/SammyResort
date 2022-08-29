@@ -1,0 +1,31 @@
+.featureRooms {
+    padding: 5rem 0;
+}
+
+.featureHeader {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.featuredRoomsCenter {
+    margin: 0 auto;
+    display: grid;
+    grid-row-gap: 2rem;
+    grid-column-gap: 40px;
+}
+
+
+.featureHeader h4 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+    font-weight: bold; 
+}
+
+@media screen and (min-width: 776px) {
+    .featuredRoomsCenter {
+        width: 90vw;
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    }
+}

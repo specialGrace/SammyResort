@@ -1,0 +1,80 @@
+.roomsbackground {
+    background-image: url(../img/resortbg4.jpg) ;
+    min-height: calc(100vh - 66px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 50%;
+        background-position-y: center;
+        background-color: initial;
+        background-clip: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.roomsbanner {
+     display: inline-block;
+     background: rgba(0, 0, 0, 0.5);
+     color: #fff;
+     padding: 2rem 1rem;
+     text-align: center;
+     text-transform: capitalize;
+     letter-spacing: 3px;
+    width: 700px;
+        height: 200px;
+ }
+
+ .roomsbanner h1 {
+     font-size: 2.5rem;
+     font-size: 3em;
+     line-height: 1;
+     margin-bottom: 0.5em;
+ }
+
+ .roomsbanner div {
+     width: 10rem;
+     height: 5px;
+     background: #af9a7d;
+     margin: 1.7rem auto;
+ }
+
+ .roomsbanner p {
+     font-size: 1.2rem;
+     margin-bottom: 2rem;
+ }
+
+ .btnPrimary {
+     display: inline-block;
+     text-decoration: none;
+     letter-spacing: 3px;
+     color: #222;
+     background: #af9a7d;
+     padding: 0.4rem 0.9rem;
+     border: 3px solid #af9a7d;
+     transition: all .3s linear;
+     text-transform: uppercase;
+     cursor: pointer;
+ }
+
+ .btnPrimary:hover {
+     background: transparent;
+     color: #af9a7d;
+ }
+
+
+ @media screen and (min-width: 576px) {
+     .SingleRoomBanner {
+         padding: 2rem 3rem;
+     }
+
+     .SingleRoomBanner h1 {
+         font-size: 3rem;
+     }
+ }
+
+
+
+
+

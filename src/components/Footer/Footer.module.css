@@ -1,0 +1,98 @@
+.footercontainer {
+    /* background-color: #f7f7f7;  */
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.footerInfo{
+    display:block;
+}
+.footerAddress{
+    width: 300px;
+    font-size: 15px;
+}
+.footerlogo {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sammy {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px black;
+    /* text-indent: 5px; */
+}
+
+.resort {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: #795548;
+    text-shadow: 1px 1px 1px #795548;
+}
+
+.footerlist {
+    /* display: flex; */
+    margin-left: 30px;
+}
+.footerDetails{
+    display: flex;
+}
+.footerlink {
+    color: #222222;
+    margin: 0px 16px;
+    padding: 8px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    background: transparent;
+    transition: all .8s linear;
+    
+
+}
+.footerlink:hover{
+    text-decoration: underline;
+    color: #795548;
+}
+
+li {
+    list-style: none;
+}
+.footerMedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+}
+.footerMedia a{
+    font-size: 2rem;
+    color:#222222;
+}
+.footerMedia a:hover{
+    color: #795548;
+}
+/* @media screen and (max-width: 768px) {
+
+    .footerlogo {
+        border: none;
+    }
+
+    .footerlink {
+        height: auto;
+        display: flex;
+        margin-left: 4rem;
+    }
+} */

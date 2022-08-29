@@ -1,0 +1,144 @@
+
+.singleRoom {
+    padding: 5rem 0 0;
+}
+
+
+
+ .singleRoomImages {
+    width: 100vw;
+     /* margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 50px;  */
+
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+} 
+
+/* .singleRoomImages img {
+    width: 100%;
+    display: block;
+} */
+
+
+.RoomImages {
+    width: 200px;
+    height: 200px;
+}
+
+.singleRoomImages {
+    position: relative;
+
+}
+
+.singleRoomImages:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+.singleRoomImages:hover .RoomImages {
+    opacity: .3;
+}
+
+.singleRoomImages .RoomImages {
+    width: 100%;
+    display: block;
+
+}
+
+
+
+.singleRoomInfo {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem auto;
+}
+
+.description,
+.information {
+    margin: 1rem 0;
+}
+
+.description h3 {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+
+/* h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1em;
+} */
+
+.description p {
+    line-height: 1.5;
+}
+
+.description,
+.information {
+    margin: 1rem 0;
+}
+
+
+.information h3,
+.information h6 {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+
+.information h6 {
+    font-weight: 300;
+}
+
+.information h3,
+.information h6 {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+h5,
+h6 {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

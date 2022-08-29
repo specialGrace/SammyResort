@@ -1,0 +1,75 @@
+.navcontainer{
+    background-color: #f7f7f7;
+    padding: 0.75rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navlogo{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sammy{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px black;
+}
+
+.resort{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: #795548;
+    text-shadow: 1px 1px 1px #795548;
+}
+
+/* fhhfhfh */
+.navlist{
+    display: flex;
+    margin-right: 50px;
+}
+
+.navlink{
+    color: #222222;
+    margin: 0px 16px;
+    padding: 8px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    background: transparent;
+    transition: all .3s linear;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+        .navlogo{
+            border: none;
+        }
+        
+                .navlink{
+                    height: auto;
+                    display: flex;
+                    margin-left: 4rem;
+                }
+            }
+

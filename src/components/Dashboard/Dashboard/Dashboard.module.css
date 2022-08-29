@@ -1,0 +1,146 @@
+.main {
+    /* width: 84%; */
+    margin-left: 19%;
+}
+
+.defaultContainer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 20px;
+
+} 
+
+.default{
+    font-size: 1.4rem;
+    
+}
+.dashboardDefault{
+    display: flex;
+    
+}
+
+.dashboardDefaultIcon{
+    margin-left: 1rem;
+}
+
+.defaultPara{
+    font-size: 0.7rem;
+    margin-right:2px;
+    margin-top: 10px;
+}
+
+.defaultIcon{
+    margin-right: 5rem;
+    font-size: 1.4rem;
+}
+
+.icon{
+    color:#222222;
+}
+
+.starIcon{
+    color:rgb(199, 172, 18);
+}
+
+.totalCardsContainer{
+    display: flex;
+    /* width:63%; */
+}
+
+.totalInfoCard{
+    margin: 15px 15px 15px 0px;
+    background:white;
+    width:21%;
+    height:150px;
+    padding:1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgb(0 0 0 / 50%);
+}
+
+.totalInfo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.priceTag{
+    font-weight: bold;
+}
+
+.totalPara{
+    font-size:0.8rem;
+}
+
+.activityContainer{
+    width: 25%;
+    /* margin:15px 100px 15px 770px; */
+    padding: 1rem;
+    background:white;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px 5px rgb(0 0 0 / 50%);
+}
+
+
+.activityInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px 0px;
+}
+
+.activityIcon{
+    border: 1px solid black;
+     width:30px;
+    height:30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius:50%; 
+    background: #e1b12c;
+    
+}
+
+.activityParagraph{
+     padding-left: 60px; 
+    position:relative;
+
+    
+}
+.activityLine{
+    position: absolute;
+    border-left: 1px solid black;
+    height:120px;
+    margin-left: -47px;
+}
+
+
+.activityTopic{
+    font-weight: bold;
+}
+
+.time{
+    font-size: 0.8rem;
+}
+
+.chartContainer{
+    display: flex;
+/* width: 65%; */
+/* margin: 15px 15px 15px 0px; */
+    /* padding: 1rem; */
+    /* background: white; */
+    /* border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgb(0 0 0 / 50%); */
+}
+
+.valuation{
+    
+        width: 65%;
+        margin: 15px 15px 15px 0px;
+        padding: 2rem;
+        /* background: white; */
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px 5px rgb(0 0 0 / 50%);
+}
+
+
+
