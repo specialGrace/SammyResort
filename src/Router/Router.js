@@ -4,13 +4,14 @@ import HomeScreen from "../Screens/HomeScreen";
 import RoomsScreen from "../Screens/RoomsScreen";
 import SingleRoom from "../Screens/SingleRoomScreen";
 import NotFoundScreen from "../Screens/NotFoundScreen";
-import DashboardScreen from "../Screens/DashboardScreen";
-import Orders from "../components/Dashboard/Orders/Orders";
-import Receipt from "../components/Dashboard/Receipts/Receipt";
-import Layout from "../components/Dashboard/Layout/Layout";
+// import DashboardScreen from "../Screens/DashboardScreen";
+// import Orders from "../components/Dashboard/Orders/Orders";
+// import Receipt from "../components/Dashboard/Receipts/Receipt";
+// import Layout from "../components/Dashboard/Layout/Layout";
 import DefaultLayout from '../components/Layout/Layout'
-import Profile from "../components/Dashboard/Profile/Profile";
+// import Profile from "../components/Dashboard/Profile/Profile";
 import ContactScreen from "../Screens/ContactScreen";
+import DashboardScreen from "../Screens/DashboardScreen";
 
 const Router = () => { 
   return (
@@ -55,12 +56,21 @@ const Router = () => {
           </DefaultLayout>
         }
       />
-      <Route path="/dashboard" element={<Layout />}>
+
+<Route
+        path="/mydashboard"
+        element={
+        
+            <DashboardScreen />
+         
+        }
+      />
+      {/* <Route path="/dashboard" element={<Layout />}>
         <Route index element={<DashboardScreen />} />
         <Route path="orders" element={<Orders />} />
         <Route path="profile" element={<Profile />} />
         <Route path="receipts" element={<Receipt />} />
-      </Route>
+      </Route> */}
 
       <Route path="*" element={<Navigate to="/not-found" />} />
     </Routes>

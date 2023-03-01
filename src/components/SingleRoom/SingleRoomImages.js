@@ -23,10 +23,10 @@ import styles from "./SingleRoomImages.module.css";
      <div>
        {loading && <h2>Loading...</h2>}
        {room && ( <div className={styles.singleRoom}>
-         <div className={styles.singleRoomImages}>
+         <div >
            {room.images.length > 0 &&
              room.images.map((img, i) => (
-               <img key={i} src={img} alt={room.name} />
+               <img key={i} src={img} alt={room.name} className={styles.singleRoomImages}/>
              ))}
            </div>
            <div className={styles.singleRoomInfo}>

@@ -63,8 +63,44 @@
     background-color: #AF9A7D;
     margin: 1.7rem auto;
 }
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 600px) {
     .bannerInfo{
-        padding: 2rem 3rem;
+        padding: 1rem 2rem;
     }
+
+    .banner{
+        min-height: calc(80vh - 66px); 
+       
+   }
+
+   .bannerInfo{
+    
+    width: 700px;
+   height: 200px;
+
+   letter-spacing: 2px;
+
+}
+
+.bannerHeader{
+    margin: 0px 0px 10px;
+    font-size: 20px;
+  
+}
+
+.bannarpara{
+    font-size: 18px;
+   
+}
+
+.bannerBtn{
+    
+    font-size: 10px;
+   
+  
+    padding: 0.4rem 0.9rem;
+    
+
+}
+   
 }

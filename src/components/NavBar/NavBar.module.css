@@ -36,6 +36,11 @@
     text-shadow: 1px 1px 1px #795548;
 }
 
+/* fhhfhfh */
+.navlist{
+    display: flex;
+    margin-right: 50px;
+}
 
 .navlink{
     color: #222222;
@@ -57,37 +62,54 @@ li{
 
 
 @media screen and (max-width: 600px){
-    
-/*    
-    .navlist{
-   
-        height: 100vh; 
- width: 50vw;
-        position: absolute; 
-        z-index: 1;
-        top: 0; 
+    .navcontainer{
+        background-color: #f7f7f7;
+        padding: 0.75rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
         left: 0;
-        background-color: #795548;
-        overflow-x: hidden;
-        padding-top: 60px; 
-        transition: 0.5s; 
+        width: 100%;
+        z-index: 1;
     }
     
-      .navlogo{
-        display: none;
-      }
-     */
-        .navlink {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 15px;
-            color: #f1f1f1;
-            display: block;
-            transition: 0.3s;
-          
-        }
+    .navlogo{
+        display: flex;
+        justify-content: center;
+        width: 120px;
+       
+    }
+    
+    .sammy{
+       
+        font-weight: 400;
+    
+    }
+    
+    .resort{
+        font-weight: 400;
+       
+    }
+    
+   
+    .navlist{
+        display: flex;
+        margin-right: 10px;
+    }
+    
+    .navlink{
+        
+        margin: 0px 3px;
+        padding: 4px 0px;
+        font-size: 10px;
+       
      
+    }
+    
+  
+    
             }
 
-       
-            

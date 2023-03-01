@@ -1,9 +1,17 @@
  .SingleRoomBackground {
     background: url(../../images/room-12.jpeg)center center / cover no-repeat;
-    min-height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height: calc(100vh - 66px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 50%;
+        background-position-y: center;
+        background-color: initial;
+        background-clip: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 } 
 
 .SingleRoomBanner {
@@ -56,12 +64,33 @@
 }
 
  
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 600px) {
     .SingleRoomBanner {
-        padding: 2rem 3rem;
+        padding: 1rem 1rem;
+    }
+    
+    
+    
+    .SingleRoomBanner h1 {
+        font-size: 1.5rem;
+        line-height: 1;
+    
     }
 
-    .SingleRoomBanner h1 {
-        font-size: 3rem;
+    .btnPrimary {
+        letter-spacing: 2px;
+        padding: 0.4rem 0.5rem;
     }
+
+    .SingleRoomBackground {
+       
+        min-height: calc(80vh - 100px);
+        min-width: 100%;
+       
+        margin: 10px;
+    } 
+    
+    
 }
+
+
