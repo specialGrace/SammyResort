@@ -36,11 +36,6 @@
     text-shadow: 1px 1px 1px #795548;
 }
 
-/* fhhfhfh */
-.navlist{
-    display: flex;
-    margin-right: 50px;
-}
 
 .navlink{
     color: #222222;
@@ -61,15 +56,38 @@ li{
 
 
 
-@media screen and (max-width: 768px){
-        .navlogo{
-            border: none;
+@media screen and (max-width: 600px){
+    
+/*    
+    .navlist{
+   
+        height: 100vh; 
+ width: 50vw;
+        position: absolute; 
+        z-index: 1;
+        top: 0; 
+        left: 0;
+        background-color: #795548;
+        overflow-x: hidden;
+        padding-top: 60px; 
+        transition: 0.5s; 
+    }
+    
+      .navlogo{
+        display: none;
+      }
+     */
+        .navlink {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 15px;
+            color: #f1f1f1;
+            display: block;
+            transition: 0.3s;
+          
         }
-        
-                .navlink{
-                    height: auto;
-                    display: flex;
-                    margin-left: 4rem;
-                }
+     
             }
 
+       
+            
